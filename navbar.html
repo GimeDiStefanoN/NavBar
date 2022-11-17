@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <title>NavBar Responsive Bootstrap</title>
+</head>
+<body class="">
+
+    <!-- HEADER - NAVBAR -->
+<header id="navegacion">
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+        <div class="container-fluid">
+            <!-- LOGO -->
+            <img src="data:image/jpeg;base64,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" alt="logo" width="120px" height="90px">
+
+            <!-- ICONO MENU -->
+            <button class="navbar-toggler" id="buttonresponsive" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- MENU -->
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav me-auto">
+                    <li class="navbar-item">
+                        <a href="#" class="nav-link active">SECCION 1</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="nav-link">SECCION 2</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="nav-link">SECCION 3</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="nav-link">SECCION 4</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="nav-link">SECCION 5</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="nav-link">SECCION 6</a>
+                    </li>
+                </ul>
+                <!--LINEA DIVISORIA -->
+                <hr class="text-white-50">
+
+                <!-- ENLACES A REDES SOCIALES -->
+                <ul class="navbar-nav flex-row flex-wrap" id="redes">
+                    <li class="navbar-item col-6 col-md-auto p-3">
+                       <a href="http://" target="_blank" rel="github"><i class="bi bi-github"></i></a> 
+                       <small class="d-lg-none ms-2">GitHub</small>
+                    </li>
+                    <li class="navbar-item col-6 col-md-auto p-3">
+                        <a href="http://" target="_blank" rel="linkedin"><i class="bi bi-linkedin"></i></a> 
+                        <small class="d-lg-none ms-2">Linkedin</small>
+                    </li>
+                </ul>
+
+                <!-- BOTON INICIO DE SESION -->
+                <ul class="navbar-nav flex-row flex-wrap text-light" id="sesion">
+                    <li class="navbar-item col-6 col-md-auto p-3">
+                        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#loginModal">
+                            <i class="bi bi-person-fill-lock"></i>
+                        </button>
+                        <small class="d-md-none ms-2">Iniciar Sesión</small>
+                    </li>
+                    <li class="navbar-item col-6 col-md-auto p-3">
+                        <button type="button" class="btn btn-dark">
+                            <i class="bi bi-box-arrow-in-right"></i>
+                        </button>
+                        <small class="d-md-none ms-2">Cerrar Sesión</small>
+                    </li>
+                    
+                    
+                </ul>
+        </div>
+    </nav>
+</header>
+     <!-- MODAL LOGIN -->
+
+    <!-- Modal -->
+
+        <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5" id="loginModalLabel">INICIAR SESION</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                
+                    <form method="post">
+                        <div class="formulario">
+                          <label for="inputUsername" class="col-form-label">Usuario</label>
+                          <div class="">
+                            <input type="text" class="form-control" id="autoSizingInputGroup" required>
+                          </div>
+                        </div>
+                        <div class="formulario">
+                          <label for="inputPassword3" class="col-form-label">Contraseña</label>
+                          <div class="">
+                            <input type="password" class="form-control" id="inputPassword3" required>
+                          </div>
+                        </div>
+              
+                        <div class="pass">
+                          ¿No recordás tu contraseña?
+                        </div>
+                        <button type="submit" id="btn-login" class="btn btn-primary">Iniciar Sesión</button>
+                      </form>
+                </div>
+            </div>
+            </div>
+        </div>
+</body>
+</html>
