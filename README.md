@@ -8,4 +8,4 @@
 
 # VISUALIZACION
 
-![navbar](https://user-images.githubusercontent.com/97200944/202479195-730498ec-1077-4d9b-97db-83a75b8380eb.jpg)
+![navbar](https://user-images.githubusercontent.com/97200944/202488923-2d89b89b-ffb5-4da4-83d8-7f53fe002391.jpg)
